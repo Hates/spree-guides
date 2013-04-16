@@ -86,7 +86,7 @@ product.set_property("material", "100% cotton")```
 
 If this property doesn't already exist, a new `Property` instance with this name will be created.
 
-## Multi-currency support
+## Multi-Currency Support
 
 Price objects track a price for a particular currency and variant combination. For instance, a <%= link_to "variant", "#variants" %> may be available for $15 (15 USD) and €7 (7 Euro).
 
@@ -116,8 +116,8 @@ Taxonomies provide a simple, yet robust way of categorizing products by enabling
 
 When working with Taxomonies there are two keys terms to understand:
 
-* Taxonomy – a hierarchical list which is made up of individual Taxons. Each taxonomy relates to one Taxon, which is its root node.
-* Taxon – a single child node which exists at a given point within a Taxonomy. Each Taxon can contain many (or no) sub / child taxons. Store administrators can define as many Taxonomies as required, and link a product to multiple Taxons from each Taxonomy.
+* Taxonomy - a hierarchical list which is made up of individual Taxons. Each taxonomy relates to one Taxon, which is its root node.
+* Taxon - a single child node which exists at a given point within a Taxonomy. Each Taxon can contain many (or no) sub / child taxons. Store administrators can define as many Taxonomies as required, and link a product to multiple Taxons from each Taxonomy.
 
 By default, both Taxons and Taxonomies are ordered by their `position` attribute.
 

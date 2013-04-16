@@ -20,7 +20,7 @@ A payment can go through many different states, as illustrated below.
 An explanation of the different states:
 
 * Checkout: Checkout has not been completed
-* Processing: The payment is being processed (temporary – intended to prevent double submission)
+* Processing: The payment is being processed (temporary - intended to prevent double submission)
 * Pending: The payment has been processed but is not yet complete (ex. authorized but not captured)
 * Failed: The payment was rejected (ex. credit card was declined)
 * Void: The payment should not be counted against the order

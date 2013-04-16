@@ -38,7 +38,7 @@ An adjustment to an order from a promotion depends on the calculators. For more 
 
 When a `LineItem` action is undertaken, a series of line items are automatically added to the order, which may alter the order's price. The promotion with an action to add a line item can also have another action to add an adjustment to the order to nullify the cost of adding the product to the order.
 
-### Registering a new action
+### Registering a New Action
 
 You can create a new action for Spree's promotion engine by inheriting from `Spree::PromotionAction`, like this:
 
